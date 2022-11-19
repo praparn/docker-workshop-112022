@@ -6,9 +6,9 @@ LAB Preparation
 1. Following LABSheet.xlsx for identify your machine on Group. You will receive 3 machine per group like list below:
 ############################################################################################################################################################################
 	Group No:			Machine name.											Private IP Address								Public IP Address				Role
-	1					Training_DockerZerotoHero_StudentG1_1					10.21.1.XX										X.X.X.X							Master
-	1					Training_DockerZerotoHero_StudentG1_2					10.21.1.XX										X.X.X.X							Worker1
-	1					Training_DockerZerotoHero_StudentG1_3					10.21s.1.XX										X.X.X.X							Worker2
+	1					Training_DockerZerotoHero_StudentG1_1					10.200.X.X										X.X.X.X							Master
+	1					Training_DockerZerotoHero_StudentG1_2					10.200.X.X										X.X.X.X							Worker1
+	1					Training_DockerZerotoHero_StudentG1_3					10.200.x.X										X.X.X.X							Worker2
 ############################################################################################################################################################################
 
 2. Follow sheet to access all machine of your group and clear existing configuration by command: 

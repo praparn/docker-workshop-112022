@@ -137,8 +137,8 @@ Registry with Harbor
 
 23. (Teacher Machine) Setup Harbor Registry by command:
 	cd ~
-	wget https://github.com/goharbor/harbor/releases/download/v2.4.1/harbor-online-installer-v2.4.1.tgz
-	tar xvf harbor-online-installer-v2.4.1.tgz && cd ./harbor
+	wget https://github.com/goharbor/harbor/releases/download/v2.6.2/harbor-online-installer-v2.6.2.tgz
+	tar xvf harbor-online-installer-v2.6.2.tgz && cd ./harbor
 
 24. (Teacher Machine) Configure initial start by command:
 	cp harbor.yml.tmpl harbor.yml
@@ -154,7 +154,7 @@ Registry with Harbor
 	sudo ./install.sh
 
 26. (Teacher Machine) Check readiness by command:
-	watch sudo docker-compose ps
+	watch sudo docker compose ps
 
 27. (Teacher Machine) Open web portal for harbor:
 	https://<public ip of registry>
@@ -203,5 +203,5 @@ Registry with Harbor
 
 35. (Teacher Machine) Remove harbor by compose command:
 	cd ~/harbor
-	sudo docker-compose stop
-	sudo docker-compose down
+	sudo docker compose stop
+	sudo docker compose down
